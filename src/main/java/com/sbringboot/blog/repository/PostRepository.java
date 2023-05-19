@@ -1,0 +1,8 @@
+package com.sbringboot.blog.repository;
+
+import com.sbringboot.blog.entity.Post;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostRepository extends JpaRepository<Post, Long> {
+
+}
